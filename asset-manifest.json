@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MATRIXLABS-PROJECT/static/css/main.9d06fcfc.css",
+    "main.js": "/MATRIXLABS-PROJECT/static/js/main.450f3156.js",
+    "index.html": "/MATRIXLABS-PROJECT/index.html",
+    "main.9d06fcfc.css.map": "/MATRIXLABS-PROJECT/static/css/main.9d06fcfc.css.map",
+    "main.450f3156.js.map": "/MATRIXLABS-PROJECT/static/js/main.450f3156.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d06fcfc.css",
+    "static/js/main.450f3156.js"
+  ]
+}
