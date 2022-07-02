@@ -8,15 +8,16 @@
 
   position: fixed;
   z-index: 100;
-  background-color: rgb(28, 29, 57, 0.6);
-  backdrop-filter: blur(8px);
+  background-color: rgb(28, 29, 57);
+  /* backdrop-filter: blur(8px); */
+  
 
   box-shadow: 0 10px -10px rgba(28, 29, 57, 0.6);
 }
 #logo-image {
   width: 11.6rem;
   height: 4.875rem;
-  animation: flipInX 1.5s ease-in-out;
+  /* animation: bounceInLeft 4s ease-in-out; */
 }
 #logo-heading {
   width: 14.9rem;
@@ -26,7 +27,7 @@
   font-size: 28px;
   line-height: 34px;
   font-family: var(--logo-font);
-  animation: flipInX 1.5s ease-in-out;
+  
 }
 .app__navbar .app__navbar-wrapper {
   display: flex;
@@ -40,6 +41,9 @@
   flex-wrap: inherit;
   margin: 0 1rem;
 }
+.app__navbar .app__navbar-wrapper .navbar-left{
+  animation: bounceInLeft 4s ease-in-out;
+}
 .app__navbar .app__navbar-wrapper .navbar-left,
 .app__navbar .app__navbar-wrapper .navbar-right {
   display: flex;
@@ -49,6 +53,7 @@
 }
 .app__navbar .app__navbar-wrapper .navbar-right {
   margin-right: 2rem;
+  animation: bounceInRight 4s ease-in-out;
 }
 .btn {
   font-family: "Poppins";

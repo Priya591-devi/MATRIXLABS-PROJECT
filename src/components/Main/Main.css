@@ -7,10 +7,10 @@
   padding-top: 7rem;
 }
 .app__main .app__main-left {
-  animation: lightSpeedInLeft 2s ease-in-out; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInLeft 3s ease-in-out; /* referring directly to the animation's @keyframe declaration */
 }
 .app__main .app__main-right {
-  animation: lightSpeedInRight 2s ease-in-out; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInRight 3s ease-in-out; /* referring directly to the animation's @keyframe declaration */
 }
 .app__main .app__main-left,
 .app__main .app__main-right {
@@ -66,6 +66,10 @@
 .details-wrapper .wrapper-items .item-left,
 .details-wrapper .wrapper-items .item-right {
   font-size: 1.95rem;
+
+}
+.details-wrapper .wrapper-items:hover{
+  transform: scale(1.01);
 }
 
 .details-wrapper .progress {

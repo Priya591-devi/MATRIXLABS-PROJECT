@@ -16,6 +16,13 @@
   align-items: flex-start;
   /* margin: 0 1rem; */
 }
+.small-card:hover{
+  transform: scale(1.05);
+  background-color: #00c88c;
+}
+.small-card:hover h3{
+color: rgb(16, 61, 6);
+}
 
 .small-card h3 {
   color: #00c88c;

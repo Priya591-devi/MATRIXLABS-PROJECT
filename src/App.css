@@ -29,7 +29,8 @@ button {
   font-family: "Poppins", sans-serif;
 }
 button:hover {
-  animation: headShake 1s;
+  
+  transform: scale(1.05);
 }
 span {
   color: #00c88c;
